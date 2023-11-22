@@ -1,0 +1,57 @@
+body {
+    background-color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .main-movies {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-block: 32px;
+  }
+  
+  .movies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .movie {
+    display: flex;
+    gap: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    color: #333;
+    padding: 16px;
+  }
+  
+  .movie-poster {
+    width: 30%;
+  }
+  
+  .movie-title,
+  .movie-genre,
+  .movie-synopsis {
+    padding: 4px;
+    line-height: 1.4rem;
+  }
+  
+  .movie-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .movie-genre {
+    font-size: 1.1rem;
+    color: #888;
+  }
+  
+  h2 {
+    color: red;
+  }
+  
